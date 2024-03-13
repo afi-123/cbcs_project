@@ -1,0 +1,68 @@
+#Hod {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #Hod td, #Hod th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #Hod tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #Hod tr:hover {background-color: #ddd;}
+  
+  #Hod th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #08023c64;
+    color: white;
+  }
+  .button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 3px 2px;
+    height: fit-content;
+    width: fit-content;
+    transition-duration: 0.2s;
+    cursor: pointer;
+  }
+  .Reg {
+    background-color: white;
+    padding: 10px 5px;
+    color: black;
+    border: 2px solid #555555;
+  }
+  
+  .Reg:hover {
+    background-color: #555555;
+    color: white;
+  }
+    .conform {
+      background-color: white; 
+      color: black; 
+      padding: 10px 50px;
+      border: 2px solid #008CBA;
+    }
+    .conform:hover {
+      background-color: #008CBA;
+      color: white;
+    }
+    .close {
+      background-color: white; 
+      color: black; 
+      padding: 10px 50px;
+      border: 2px solid #ba0000;
+    }
+    .close:hover {
+      background-color: #ba2800;
+      color: white;
+    }

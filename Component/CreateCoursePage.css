@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.body-C {
+  background: linear-gradient(45deg, #f3edf8, #00b7e0);
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  min-width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main.main-C {
+  background: white;
+  min-width: 320px;
+  min-height: 40vh;
+  padding: 2rem;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+}
+
+.ip-C {
+  position: relative;
+}
+
+.form-C .ip-C:first-child {
+  margin-bottom: 1.5rem;
+}
+
+.form-C select {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%; 
+  background-color: #fff;
+  color: #333;
+}
+
+.form-C select::after {
+  content: '\25BC';
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+}
+
+.form-C select:focus {
+  outline: none;
+  border-color: #666;
+}
+
+.form-C label {
+  margin-bottom: 10px;
+  display: block;
+  padding: 10px;
+}
+
+.form-C button {
+  position: relative;
+  align-items: center;
+  padding: 10px;
+  background-color: #e6f0f3;
+  
+}
+
+.form-C button:hover {
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  background-color: #00b7e0;
+  
+}
+
+.form-C input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  width: 100%; 
+}
+
+.form-C input:focus {
+  outline: none;
+  border-color: #666;
+}
+
+@media screen and (max-width: 768px) {
+  .form-C select,
+  .form-C input {
+    width: 100%; 
+    max-width: 400px; 
+  }
+}

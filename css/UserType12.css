@@ -1,0 +1,38 @@
+.usertype {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 5px;
+}
+.usertype a {
+  text-decoration: transparent;
+  background-color:  #08034fbe;
+  color: white;
+  text-align:center;
+  font-family: 'Courier New', Courier, monospace;
+  width: 200px;
+  height: 35px;
+  border-radius: 5px;
+  display: inline-block;
+  margin: 5px 0;
+}
+.usertype {
+  background-image:url("Premium\ Vector\ Simple\ black\ gradient\ background\ premium.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.usertype a:hover {
+  background-color:grey;
+}

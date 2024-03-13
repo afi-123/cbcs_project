@@ -1,0 +1,39 @@
+#Logout {
+    background-color: #2f2fdf;
+    color: white;
+    float: right;
+    padding: 10px 50px;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+ #Logout:hover {
+    background-color: rgb(77, 6, 6); 
+}
+#ip
+{
+    width: 30%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: larger;
+}
+#add
+{
+    background-color: #4c60af;
+    width: 50%;
+    color: white;
+    padding: 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.info
+{
+    text-align:left;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+  

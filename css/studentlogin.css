@@ -1,0 +1,128 @@
+.body {
+    font-family: Arial, sans-serif;
+    margin: 10;
+    padding: 10;
+}
+
+.container {
+    display: flex;
+    height: 95vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.left-side {
+    flex: 1.0;
+}
+
+.right-side {
+    flex: 1;
+    padding: 20px;
+}
+
+.form-container {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f8f9fa; /* Adjust background color as needed */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add box shadow for depth */
+}
+
+.form-group-6gd {
+    margin-bottom: 20px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+}
+
+#ip1,
+#Password {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.btn-6pp {
+    background-color: #4c60af;
+    color: white;
+    padding: 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn-6pp:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.btn-6pp:hover {
+    background-color: #04aa6d;
+}
+
+.error {
+    color: red;
+    margin-top: 5px;
+}
+
+@media (min-width: 600px) {
+    form {
+        margin: 0;
+    }
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+#Signup {
+    color: #fff;
+    background-color: #aa234c;
+    padding: 10px 50px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s;
+}
+
+#Signup:hover {
+    background-color: #4c60af;
+}
+
+.text-2ii {
+    font-size: 22px;
+    color: #170101;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.text-2ii b {
+    color: #000000;
+}
+
+#HOME {
+    background-color: #04aa6d;
+    color: white;
+    float: right;
+    padding: 10px 50px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+#HOME:hover {
+    background-color: rgba(16, 2, 2, 0.3);
+}
